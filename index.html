@@ -551,6 +551,34 @@ footer p { font-family: 'Fira Code', monospace; font-size: 0.67rem; color: var(-
   .edu-card { grid-template-columns: 1fr; }
   footer { padding: 20px 22px; flex-direction: column; gap: 8px; text-align: center; }
 }
+@media (max-width: 768px) {
+
+  .hero-photo-wrapper {
+    transform: none !important;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .photo-frame {
+    width: 280px;
+    height: 340px;
+    margin: 0 auto;
+  }
+
+  .photo-tag {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .photo-edu {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+}
 </style>
 </head>
 <body>
